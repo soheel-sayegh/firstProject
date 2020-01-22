@@ -1,0 +1,206 @@
+body{
+    background-image: url(../images/Fs4Umml.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+
+header{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow: hidden;
+    height: 70vh;
+    display: flex;  
+    color: #fff;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+  
+
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+  
+    
+}
+.video video{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.-content{
+    width: 100%;
+    z-index: 2;
+    text-align: center; 
+  
+}
+.-content h1{
+    color: rgba(240, 248, 255, 0.568);
+    font-size: 120px;
+    margin: 10px;
+   padding: 20px;
+   font-family: 'bad script', cursive;
+   text-align: center;
+}
+.search-box{
+
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+.search-btn{
+    color: red;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.search-box:hover> .search-txt{
+    width: 150px;
+    padding: 0 6px;
+}
+.search-box:hover> .search-btn{
+    background: wheat
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: aliceblue;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+p {font-size: 3em;
+  color: rgb(255, 251, 251)
+ }
+
+em {color: rgb(105, 104, 104)}
+
+
+p.lucy {color: rgb(206, 201, 201);font-size: 1.5em;}
+
+ol{
+    font-size: 1.5em; 
+    color: yellow ;
+    border: solid; 
+    width: 200px;
+    border-left: 0ch;
+    border-right: 0ch;
+    
+}
+ol li a{
+    text-decoration: none;
+    padding:10pxx;
+    color: rgb(110, 1, 65);
+    
+}
+ol li a i{
+     color: teal;
+}
+ol li a:hover{
+    color: white
+}
+
+div.square{
+    
+    color: red;
+    font-size: 4em;
+    background-color: rgba(233, 245, 238, 0.164);
+    border-style: solid ;
+    text-align: center;
+}
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style:none ;
+   
+    
+}
+ul li{
+    background-color: gray;
+    float: left;
+    border: solid 1px wheat;
+   width: 14%;
+   height: 40px;
+   background-color: rgba(36, 36, 36, 0.623);
+   opacity: .8;
+   line-height: 40px;
+   font-size: 30px;
+  
+   
+   
+}
+
+ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    
+}
+ul li a:hover{
+    background-color: rgba(236, 6, 6, 0.493);
+}
+ul li ul li{
+   display: none;
+   width: 100%;
+   
+   
+}
+ul li:hover ul li{
+    display: block;
+    
+}
+.film{ 
+     display: flex;
+     flex-wrap: wrap;
+     margin: 10px;
+    
+ }
+.film a img{
+    width: 220px;
+    height: 330px;
+    margin: 5px;
+    
+}
+div.images{border: 10px solid ;color:rgba(255, 0, 0, 0.418);text-align: center;font-size: 4em;}
+
+div.inside{border: 10px solid;border-color: honeydew ;color: rgb(182, 9, 9); background-color: rgba(255, 183, 0, 0.288); }
+
+.flex-container{
+    display:flex;
+   flex-wrap: wrap;
+}
+.flex-container div img {
+width: 400px;
+height: 300px;
+margin: 5px;
+}
+
+
